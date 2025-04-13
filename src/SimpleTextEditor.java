@@ -49,7 +49,6 @@ public class SimpleTextEditor {
             int index = 0;
             while ((ch = reader.read()) != -1) {
                 if ((char) ch == '\n') {
-                    // Виводимо зібрану строку
                     for (int i = 0; i < index; i++) {
                         System.out.print(line[i]);
                     }
